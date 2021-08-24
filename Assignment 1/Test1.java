@@ -30,27 +30,27 @@ public class Test1{
     public static void main(String[] args){
 	List<Letter> my_list = new ArrayList<Letter>();
 
-	my_list.add( new CharLetter('A') );
-	my_list.add( new CharLetter('B') );
-	my_list.add( new IntLetter(89) );
-	my_list.add( new IntLetter(90) );
+	my_list.add( new LetterChar('A') );
+	my_list.add( new LetterChar('B') );
+	my_list.add( new LetterInt(89) );
+	my_list.add( new LetterInt(90) );
 
 	try{
-	    my_list.add( new CharLetter('%') );
+	    my_list.add( new LetterChar('%') );
 	}
 	catch(RuntimeException e){
 	    System.out.println("Correctly handled % error");
 	}
 
 	try{
-	    my_list.add( new IntLetter(93) );
+	    my_list.add( new LetterInt(93) );
 	}
 	catch(RuntimeException e){
 	    System.out.println("Correctly handled 93 error");
 	}
 
 	try{
-	    my_list.add( new CharLetter('m') );
+	    my_list.add( new LetterChar('m') );
 	}
 	catch(RuntimeException e){
 	    System.out.println("This Shouldn't be an Error, m is a letter");
