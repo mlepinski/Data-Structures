@@ -96,7 +96,7 @@ Please‌ ‌create‌ ‌a‌ ‌graph‌ ‌or‌ ‌chart‌ ‌that‌ ‌sh
 recommend‌ ‌Google‌ ‌Sheets‌ ‌or‌ ‌Excel‌ ‌or‌ ‌Open‌ ‌Office‌ ‌to‌ ‌produce‌ ‌this‌ ‌graph,‌ ‌but‌ ‌any‌ ‌tool‌ ‌is‌ ‌fine.‌ ‌ ‌
  
  
-**Submission:*
+**Submission:**
  
 After‌ ‌you‌ ‌have‌ ‌completed‌ ‌the‌ ‌assignment,‌ ‌please‌ ‌submit‌ ‌a‌ ‌zip‌ ‌file‌ ‌containing‌ ‌two‌ ‌java‌ ‌files:‌ ‌
 
