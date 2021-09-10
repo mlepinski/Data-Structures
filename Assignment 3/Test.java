@@ -59,11 +59,12 @@ public class Test{
     
     public static void main(String[] args){
 	SimpleLinked simple = new SimpleLinked();
-	ComplexLinked complex = new ComplexLinked();
+	ComplexLinked complex1 = new ComplexLinked();
+	ComplexLinked complex2 = new ComplexLinked();
 
 	testSimple(simple);
-	testSimple(complex);
-	testComplex(complex);
+	testSimple(complex1);
+	testComplex(complex2);
 	
     }
 }
