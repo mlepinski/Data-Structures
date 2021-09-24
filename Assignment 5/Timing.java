@@ -4,11 +4,11 @@
 import java.io.FileWriter;
 import java.io.BufferedWriter;
 import java.io.IOException;
-import Random;
+import java.util.Random;
 
-public class TimePartA{
+public class Timing{
 
-    static long timeStack( int n, Stack st){
+    static long timeSearch( int n, SearchList<Integer> lst){
 
        	Random rand = new Random();
 
@@ -33,7 +33,7 @@ public class TimePartA{
 	return end - start;
     }
 
-    static long timeInsert( int n, SkipList<Integer> lst){
+    static long timeInsert( int n, SearchList<Integer> lst){
 	Random rand = new Random();
 
 	
@@ -60,9 +60,9 @@ public class TimePartA{
 	//------------------
 	size = 100000;
 	s_list = new SkipList<Integer>( );
-	measurement = timeStack(size, s_list);
-	slowDataFile.write("" + size + ", " + measurement);
-	slowDataFile.newLine();
+	measurement = timeInsert(size, s_list);
+	dataFile.write("" + size + ", " + measurement);
+	dataFile.newLine();
 
 	dataFile.close();
 
