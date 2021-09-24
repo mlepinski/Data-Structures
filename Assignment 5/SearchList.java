@@ -18,5 +18,9 @@ public interface SearchList<T extends Comparable>{
     //It should return false if there is no matching list element to remove
     public boolean remove(T the_data);
 
+    //This function prints out the contents of the list
+    //The data in the list should be printed in order
+    public void print();
+
     
 }
