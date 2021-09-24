@@ -1,5 +1,5 @@
 **Assignment #5**
-**Due: Saturday, October 2 at 5:00pm**
+**Due: Saturday, October 2 at 11:59pm**
 
 This assignment is the culmination of our linked list work. You will be implementing a Skip List which is an order list that makes searching for items in the list quick and efficient. 
 
@@ -61,6 +61,7 @@ Collect some timing data for different values of N. Then graph  (runtime / N * L
 
 I have included a potentially useful function in the Timing class for gathering data. However, you will need to edit the Timing class to get the data that you need. (In particular, the main function currently is just gathering one data point and you will need multiple data points to see how the runtime changes as N grows.)
 
+Finally, do similar timing measurements for your OrderedList class. You should find that this is dramatically slower than your SkipList timing. (In particular, insert and search should be O(n) each in the worst case, which means doing a batch of N will be O(N^2) time)
 
 **Submission:**
 
