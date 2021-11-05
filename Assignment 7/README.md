@@ -78,23 +78,24 @@ Now we add the self-balancing part to our IntScapegoat class.
 After you do an insert, walk up the tree (from the leaf that you just inserted) and see if you can find a scapegoat. (A node whose sub-tree is too tall given the number of nodes that it contains). 
 
 In particular, try to find a scapegoat where:
-      1.5^Height > Number_of_nodes in the subtree
+      1.5^Height - 1 > Number_of_nodes in the subtree
 
 Recall that for a perfectly balanced tree:
-      2^Height = Number_of_nodes
+      2^Height - 1 = Number_of_nodes
 
 Therefore, if the number of nodes falls below 1.5^Height then we are very far from being balanced. 
 
 We then re-balance by collecting all of the nodes in the sub-tree. (All of the descendents of the Scapegoat) and re-arranging them to be well balanced. There are several ways  that you can do this, but probably the easiest is to collect them into an ArrayList, shuffle them, and then insert them. (As we saw in Part B this will on average give you a pretty good balanced tree). Alternatively, the textbook describes how you can build a perfectly balanced subtree. 
 
-**Part E:**
+**Part E: (Optional)**
 
 Your IntScapegoat class implements IntDataSet as does the IntSearchTree.
 
-Over the weekend, I will be adding to the repository some code to help you time searches in an IntDataSet. Use this code to obtain timing measurements for both IntScapegoat and IntSearchTree.
-
+Do some timing mechanisms to see if searching your IntScapegoal is faster than searching an IntSearchTree. 
 Does the balancing lead to faster searches? 
 Is there a significant difference in the time to create the tree? (Do all of the insertions?)
+
+Note: The worst case for the IntSearchTree is when all of the nodes are inserted in order (as you saw in Part A you get a very tall tree when items are inserted in order). You should use this worst-case when comparing with your IntScapegoat tree.
 
 Include a chart that shows your timing measurements (in a separate file) and briefly describe your conclusions in readme.txt.
 
