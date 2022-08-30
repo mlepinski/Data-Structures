@@ -1,6 +1,6 @@
 **Assignment 1**
 
-**Due: Wednesday, September 1 at 3:30pm**
+**Due: Wednesday, September 7 at 5pm**
 
 The goal of this assignment is to gain additional comfort with implementing interfaces in Java. 
 
