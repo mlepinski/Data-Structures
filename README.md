@@ -1,6 +1,6 @@
-# Data-Structures Fall 2021
+# Data-Structures Fall 2022
 
-This is the GitHub Repository for the Fall 2021 Data Structures Course
+This is the GitHub Repository for the Fall 2022 Data Structures Course
 
 All of the code required for the assignments will be available here. 
 
