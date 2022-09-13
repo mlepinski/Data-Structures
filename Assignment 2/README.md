@@ -98,7 +98,7 @@ recommend‌ ‌Google‌ ‌Sheets‌ ‌or‌ ‌Excel‌ ‌or‌ ‌Open‌ 
  
 **Submission:**
  
-After‌ ‌you‌ ‌have‌ ‌completed‌ ‌the‌ ‌assignment,‌ ‌please‌ ‌submit‌ ‌a‌ ‌zip‌ ‌file‌ ‌containing‌ ‌two‌ ‌java‌ ‌files:‌ ‌
+After‌ ‌you‌ ‌have‌ ‌completed‌ ‌the‌ ‌assignment,‌ ‌please‌ ‌submit‌ ‌a‌ ‌zip‌ ‌file‌ ‌containing‌ ‌three java‌ ‌files:‌ ‌
 
 * UnlimitedArraySlow.java‌ 
 * UnlimitedArrayFast.java‌ ‌
