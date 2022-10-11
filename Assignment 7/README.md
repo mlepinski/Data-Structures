@@ -3,6 +3,8 @@
 
 This assignment is the beginning of our work on tree structures. In this assignment you will not be implementing a data structure. Instead you will be writing functions that use a tree class that I have created. **The focus of this assignment is modifying TreeUtilities.java to add additional functions.** 
 
+You should start by running (the main function) in the TreeUtilities class. This main function has some example code, which may be helpful. 
+
 **High Level:**
 
 I have provided you with a simple implementation of a binary search tree for integer (int) data. This class is called IntSearchTree and it makes use of the IntNode class which stores a single int. 
