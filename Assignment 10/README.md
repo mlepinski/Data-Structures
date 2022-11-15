@@ -62,7 +62,7 @@ Put the heights that you get in your readme.txt file.
 
 **Part C:**
 
-Initially, the IntScapegoat class is identical to the IntSearchTree class. Now you will add the code to keep it balanced. (This will involve changing the 
+Initially, the IntScapegoat class is identical to the IntSearchTree class. Now you will add the code to keep it balanced. (This will involve changing the insert method.)
 
 After you do an insert, walk up the tree (from the leaf that you just inserted) and see if you can find a scapegoat. (A node whose sub-tree is too tall given the number of nodes that it contains). 
 
