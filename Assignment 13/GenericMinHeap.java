@@ -47,7 +47,7 @@ public class GenericMinHeap<T extends Comparable>{
 	return null;
     }
     
-    public GenericMaxHeap(){
+    public GenericMinHeap(){
 	size = 0;
 	data = new ArrayList<T>();
     }
