@@ -2,7 +2,7 @@
 
 **Due: Saturday, December 10th at 11:59pm**
 
-In this assignment we look at a heap as an efficient way of storing data so that the maximum value is always readily available. We often refer to a data structure that makes it easy to find and remove the smallest item as a "Priority Queue". 
+In this assignment we look at a heap as an efficient way of storing data so that the minimum value is always readily available. We often refer to a data structure that makes it easy to find and remove the smallest item as a "Priority Queue". 
 
 **High Level:**
 
@@ -14,7 +14,7 @@ Chapter 10.1 in the Open Data Structures text has helpful information about Heap
 
 If we were purists, we could use an array instead of an ArrayList, but I chose an ArrayList for this assignment because then the ArrayList class will take care of the re-sizing (as more data gets added) and you don't need to worry about that detail.
 
-In this assignment, you will need to write functions to insert a new item into the heap and also a function that removes the maximum item from the heap. We will then test the data structure by creating a simple class that implements the Comparable interface.
+In this assignment, you will need to write functions to insert a new item into the heap and also a function that removes the minimum item from the heap. We will then test the data structure by creating a simple class that implements the Comparable interface.
 
 
 **Detailed Instructions:**
@@ -37,14 +37,14 @@ Additionally, the Task should contain a number which is the priority of the task
 
 **Part B:**
 
-Implement the insert function in the GenericMaxHeap class.
+Implement the insert function in the GenericMinHeap class.
 
 This function takes in an item of data and inserts it into the heap in a way that maintains the heap property. (That is, every data item needs to be larger than each of its children)
 
 
 **Part C:**
 
-Implement the removeMax function in the GenericMaxHeap class.
+Implement the removeMin function in the GenericMinHeap class.
 
 This function should return the largest item of data in the heap and then remove this item from the heap. The function should make sure that the heap property is maintained after removal. (That is, every data item needs to be larger than each of its children)
 
@@ -52,17 +52,17 @@ This function should return the largest item of data in the heap and then remove
 
 **Part D:**
 
-Create a class TestHeap that tests your GenericMaxHeap by doing the following:
+Create a class TestHeap that tests your GenericMinHeap by doing the following:
 Create an empty heap
 Add a bunch of Tasks to the heap with a variety of different priorities
 NOTE: Do not insert the items in sorted order
-Repeatedly remove the maximum priority task from the heap
+Repeatedly remove the minimum priority task from the heap
 Print out the removed task to verify that they are leaving the heap in priority order
 
 **Submission:**
 
 After you have completed the assignment, please submit a zip file containing:
 
-* GenericMaxHeap.java  
+* GenericMinHeap.java  
 * Task.java
 * TestHeap.java
