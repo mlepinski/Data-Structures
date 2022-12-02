@@ -35,13 +35,13 @@ public class GenericMinHeap<T extends Comparable>{
 
     //This function returns the largest item in the heap
     //This function does not change the heap
-    public T getMax(){
+    public T getMin(){
 	return this.data.get(0);
     }
 
     //This function removes the largest item from the heap
     //This function then returns that item
-    public T removeMax(){
+    public T removeMin(){
 
 	//Don't return null, change this line!
 	return null;
